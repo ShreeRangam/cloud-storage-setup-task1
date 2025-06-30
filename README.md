@@ -28,9 +28,13 @@ Create and configure cloud storage using **AWS S3**. Upload example files and se
 - Files uploaded with private permissions by default.
 - For testing, one file was made public using S3 Object Permissions.
 
----
+## 📄 Public File URL
 
-## 📁 Folder Structure
+- [View Sample PDF](https://my-task1-storage-bucket.s3.ap-south-1.amazonaws.com/ShreeCV.01.pdf)
+- [View Uploaded Image](https://my-task1-storage-bucket.s3.ap-south-1.amazonaws.com/Architecture+Diagram.png)
+
+
+## 📁 Folder Structure 
 ```bash
 cloud-storage-setup-task1/
 │
@@ -40,3 +44,4 @@ cloud-storage-setup-task1/
 │   └── sample-document.pdf
 └── screenshots/
     └── s3-bucket-setup.png
+|----- Public File URL
